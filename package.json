@@ -1,0 +1,23 @@
+{
+  "name": "crypto-signal-engine",
+  "version": "1.1.1",
+  "description": "Real-time market data analysis and trading signal generation for crypto traders.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xmnix0/crypto-signal-engine"
+  },
+  "author": "0xmnix0",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "websocket": "^1.0.31",
+    "ta-lib": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.4.11"
+  }
+}
